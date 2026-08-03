@@ -354,8 +354,5 @@
   // Use {placeholder} in agent or task text, for example:
   // "description": "Research {topic} and write a brief"
   // `crewai run` prompts for any placeholders missing from this object.
-  "inputs": {
-    "repository_url": "https://github.com/bradtraversy/node_jwt_example",
-    "implementation_request": "Add a new protected GET /api/users/profile endpoint directly to app.js. This endpoint should require JWT authentication (use the existing verifyToken middleware), and return the authenticated user's id, username, and email. Read app.js first using ReadFileTool to understand the current implementation, modify app.js to include the new endpoint, and write the complete updated content back to app.js using WriteFileTool."
-  }
+  "inputs": {}
 }
